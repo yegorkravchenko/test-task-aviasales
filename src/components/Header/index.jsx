@@ -7,9 +7,9 @@ function Header() {
   return (
     <header className={styles.Header}>
       <img
-        className={styles.Header__logo}
+        className={styles.HeaderLogo}
         src={logo}
-        alt="Логотип с самолетом"
+        alt="Логотип компании с самолетом"
       />
     </header>
   );
