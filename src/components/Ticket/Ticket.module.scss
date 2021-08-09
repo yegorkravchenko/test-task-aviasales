@@ -1,0 +1,50 @@
+@use '../../styles/variables';
+
+.ticket {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: variables.$blue-color;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+}
+
+.infoBlock {
+  width: 141px;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.info {
+  color: variables.$black-color;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.infoBlock p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.infoLabel {
+  color: #a0b0b9;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
